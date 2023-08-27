@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Transport</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;800;900&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img src="./imgs/Shape1.svg" alt="" class="shape circle">
+    <img src="./imgs/plus.svg" alt="" class="shape plus">
+    <img src="imgs/circle.svg" alt="" class="shape circle1">
+    <img src="imgs/circle.svg" alt="" class="shape circle2">
+    <header class="primary-header">
+        <div class="primary-header__content container flex">
+            <div class="logo">
+                <img src="./imgs/logo.png" alt="">
+            </div>
+            <nav class="primary-nav">
+                <ul class="primary-nav__list flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Bus ticket</a></li>
+                    <li><a href="#">Live tracking</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="btn">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="hero container even-columns">
+        <div class="content">
+            <h1 class="main-title fs-900 fw-900">Enjoy your bus trip</h1>
+            <p class="main-subtitle fs-400">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat voltupat.</p>
+            <div class="cards flex">
+                <div class="bg-accent text-secondary card-1 fs-100 flex">
+                    <h3>
+                        We are responsible for
+                        your safe journeya
+                    </h3>
+                </div>
+                <div class="bg-accent text-secondary card-2 fs-100 even-columns">
+                    <img src="./imgs/Bus.svg" alt="">
+                    <div>
+                        <h3>Pomfort on the bus</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="even-columns">
+                <div class="social">
+                    <ul class="social-nav__list flex">
+                        <li><a href="#"><img src="./imgs/instagram.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./imgs/facebook.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./imgs/twitter.svg" alt=""></a></li>
+                        <li><a href="#"><img src="./imgs/whatsapp.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <img src="./imgs/dotted.svg" alt="" class="decor">
+            </footer>
+        </div>
+        <div class="find-bus flex">
+            <img src="./imgs/main.jpg" alt="" class="find-bus__img">
+            <form action="POST" class="main-form grid-ish">
+                <select name="" id="" class="bg-accent text-secondary find-bus__location fw-700">
+                    <option value="" class="bg-white text-primary">Your location</option>
+                    <option value="" class="bg-white text-primary">Your location</option>
+                </select>
+                <select name="" id="" class="bg-accent text-secondary find-bus__destination fw-700">
+                    <option value="" class="bg-white text-primary">Destination</option>
+                </select>
+                <input type="submit" value="Find bus" class="bg-accent text-secondary find-bus__search fw-700">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
